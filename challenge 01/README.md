@@ -17,11 +17,11 @@ For this page we only need a single container because there are not different ba
 
 The pink background now represents the .container element.
 
-Now we want to create a div for each row that will contain the columns. A good name might be row or columns. We'll use columns here.
+Now we want to create a div for each row that will contain the columns. A good name might be row or columns...
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/rdb-flexbox-img4.png)
 
-And within each of the rows, we want to create divs for each column. Notice that the columns are different widths.
+And within each of the rows, we want to create divs for each column.
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/rdb-flexbox-img5.png)
 
@@ -32,9 +32,12 @@ Here is the detailed spec for the styling..
 Work on getting the basic content with the container styles we reviewed above.
 * remember to center the title at the top.
 * use a `<span>`, and a compound style, to target the text within the title.
-* add the display:flex property to flex the 2nd and 3rd rows.
+* add the display:flex to flex the 2nd and 3rd rows.
 * create a modifier class (a class used in addition to the main .col class) to set the background color on the two divs that need a dark background color.
-* create modifier classes to set the widths of the different columns.
+
+## Column Widths
+
+You will need to create modifier classes to set the widths of the different columns.
 
 If you take a look at the image below, you can see the naming convention used for the modifier columns. 
 
@@ -46,7 +49,7 @@ If you take a look at the image below, you can see the naming convention used fo
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/rdb-flexbox-img7.png)
 
-Use the justify-content property to add space between the columns. Experiment with different options:
+Use justify-content property to add space between the columns. Experiment with different options:
 * space-between
 * space-around
 * flex-start
@@ -60,10 +63,6 @@ Use the justify-content property to add space between the columns. Experiment wi
 Add media queries to stack all of the content vertically when the width is less than 600px.
 
 You only need a single media query to make them all stack. But you will need to deal with the widths that are being set on the desktop version for each of the columns so that the mobile version has the content extend across the entire width.
-
-![](https://raw.githubusercontent.com/hoc-labs/images/main/rdb-flexbox-img9.png)
-
-
 
 
 
